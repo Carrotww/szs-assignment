@@ -34,8 +34,6 @@ public class TaxRefundController {
     @GetMapping("/refund")
     public ResponseEntity<RefundResponse> getRefund(Authentication authentication) {
         String userId = authentication.getName();
-        System.out.print("@@@@@@@@@@@@@@@");
-        System.out.println(userId);
         RefundResponse refundResponse = taxRefundService.calculateRefund(userId);
         return ResponseEntity.ok(refundResponse);
     }

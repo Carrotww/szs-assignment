@@ -1,3 +1,8 @@
+## szs 지원자 유형석
+
+## Swagger 사용 url
+http://localhost:8080/swagger-ui/index.html
+
 ## 계산에 필요한 정보 정리
 
 결정세액 -> 산출세액 필드만 필요
