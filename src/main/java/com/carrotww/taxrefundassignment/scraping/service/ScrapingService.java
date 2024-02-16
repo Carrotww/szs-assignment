@@ -1,7 +1,6 @@
 package com.carrotww.taxrefundassignment.scraping.service;
 
 import com.carrotww.taxrefundassignment.scraping.dto.*;
-import com.carrotww.taxrefundassignment.taxrefund.Repository.TaxRefundRepository;
 import com.carrotww.taxrefundassignment.user.entity.User;
 import com.carrotww.taxrefundassignment.user.entity.UserTaxRefundCalculation;
 import com.carrotww.taxrefundassignment.user.repository.UserRepository;

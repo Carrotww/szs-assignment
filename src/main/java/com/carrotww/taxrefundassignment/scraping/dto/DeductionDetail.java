@@ -1,6 +1,5 @@
 package com.carrotww.taxrefundassignment.scraping.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Getter

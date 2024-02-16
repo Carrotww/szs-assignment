@@ -25,7 +25,7 @@ public class UserService {
                 .userId(request.getUserId())
                 .password(passwordEncoder.encode(request.getPassword()))
                 .name(request.getName())
-                .regNo(request.getRegNo())
+                .regNo(passwordEncoder.encode(request.getRegNo()))
                 .build();
         return userRepository.save(newUser);
     }

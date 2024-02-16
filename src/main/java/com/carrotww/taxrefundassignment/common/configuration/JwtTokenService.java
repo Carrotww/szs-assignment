@@ -2,7 +2,6 @@ package com.carrotww.taxrefundassignment.common.configuration;
 
 import com.carrotww.taxrefundassignment.common.service.CustomUserDetailsService;
 import com.carrotww.taxrefundassignment.user.dto.UserLoginRequest;
-import com.carrotww.taxrefundassignment.user.entity.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
